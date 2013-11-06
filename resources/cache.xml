@@ -4,6 +4,7 @@
         "-//GemStone Systems, Inc.//GemFire Declarative Caching 7.0//EN"
         "http://www.gemstone.com/dtd/cache7_0.dtd">
 <cache>
+    <cache-server port="0"/>
     <pdx read-serialized="true"/>
     <region name="Sensor" refid="PARTITION"/>
 </cache>
